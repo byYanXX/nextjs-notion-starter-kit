@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'F-ck-LeetCode-9586a514c86f4a2a869f8dd12a7aecf3',
+  rootNotionPageId: 'Powehi-e45f452c07d144a28fb5253a2e534887',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Powehi~',
-  domain: 'https://glow-ursinia-e99.notion.site/F-ck-LeetCode-9586a514c86f4a2a869f8dd12a7aecf3',
+  domain: 'https://glow-ursinia-e99.notion.site/Powehi-e45f452c07d144a28fb5253a2e534887',
   author: 'Yan BingYang',
 
   // open graph metadata (optional)
