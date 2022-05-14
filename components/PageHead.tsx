@@ -38,6 +38,25 @@ export const PageHead: React.FC<
           <meta property='twitter:domain' content={site.domain} />
         </>
       )}
+      
+      <meta name='theme-color' content='#EB625A' />
+      <meta property='og:type' content='website' />
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-DF2L8DNVGD`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-DF2L8DNVGD', {
+          page_path: window.location.pathname,
+        });
+        `
+        }}
+      />
 
       {config.twitter && (
         <meta name='twitter:creator' content={`@${config.twitter}`} />
